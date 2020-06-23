@@ -1,0 +1,17 @@
+name: crystal-amqp
+version: 0.1.0
+
+authors:
+  - Vinicius Linck <vinnylinck@gmail.com>
+
+targets:
+  crystal-amqp:
+    main: src/crystal-amqp.cr
+
+crystal: 0.35.1
+
+license: MIT
+
+dependencies:
+  amqp-client:
+    github: cloudamqp/amqp-client.cr
